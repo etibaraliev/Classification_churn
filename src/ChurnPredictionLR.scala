@@ -14,7 +14,7 @@ object ChurnPredictionLR {
     val spark = SparkSession
       .builder
       .master("local[*]")
-      .config("spark.sql.warehouse.dir", "E:/Exp/")
+      .config("spark.sql.warehouse.dir", "/temp")
       .appName("ChurnPrediction")
       .getOrCreate()
     import spark.implicits._
