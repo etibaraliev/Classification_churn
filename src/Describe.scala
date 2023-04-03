@@ -1,4 +1,4 @@
-package com.packt.ScalaML.ChrunPrediction
+package ScalaClassification
 
 import org.apache.spark._
 import org.apache.spark.sql.SparkSession
